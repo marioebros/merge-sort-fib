@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poor Story', cursive;
+}
+
+.mS-output, .mS-results {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.unit {
+    width: 40px;
+    border: 1px solid silver;
+    display: flex;
+    justify-content: center;
+    transition: ease 0.2s;
+}
