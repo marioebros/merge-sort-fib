@@ -1,13 +1,13 @@
 const fibInput = document.querySelector(".fib-input");
 const fibOutput = document.querySelector(".fib-output");
-const fibButt = document.querySelector(".fib-butt");
+const fibButt = document.querySelector(".fib-button");
 const fibRInput = document.querySelector(".fibR-input");
 const fibROutput = document.querySelector(".fibR-output");
-const fibRButt = document.querySelector(".fibR-butt");
+const fibRButt = document.querySelector(".fibR-button");
 const mergeSortInput = document.querySelector(".mS-input");
 const mergeSortOutput = document.querySelector(".mS-output");
 const mergeSortResult = document.querySelector(".mS-results");
-const mergeSortButton = document.querySelector(".mS-butt");
+const mergeSortButton = document.querySelector(".mS-button");
 const stat = document.querySelector(".status");
 
 fibButt.addEventListener("click", getFib);
